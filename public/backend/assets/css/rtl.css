@@ -1,0 +1,142 @@
+body {
+    direction: rtl;
+    text-align: start;
+}
+
+.content-page {
+    margin-right: 260px;
+    margin-left: 0;
+}
+
+.navbar-custom {
+    right: 260px;
+    left: 0;
+}
+
+body[data-leftbar-compact-mode=condensed]:not(.authentication-bg) .wrapper .footer,
+body[data-leftbar-compact-mode=condensed]:not(.authentication-bg) .wrapper .navbar-custom {
+    right: 70px;
+    left: 0;
+}
+
+.button-menu-mobile {
+    float: right;
+    margin-right: -24px;
+    margin-left: 0;
+}
+
+.float-end {
+    float: left !important;
+}
+
+.navbar-custom .topbar-menu li {
+    float: right;
+}
+
+.dropdown-menu.show {
+    text-align: start;
+}
+
+.app-search span.search-icon {
+    right: 10px;
+    display: inline-table;
+}
+
+.app-search .form-control {
+    padding-right: 40px;
+    padding-left: 20px;
+}
+
+.dropdown-menu {
+    text-align: start;
+}
+
+ul.side-nav {
+    padding-right: 0;
+}
+
+.side-nav .menu-arrow {
+    left: 30px;
+    right: auto;
+}
+
+.side-nav .side-nav-link i {
+    margin: 0 0 0 10px;
+}
+
+body[data-leftbar-compact-mode=condensed]:not(.authentication-bg) .side-nav .side-nav-item .side-nav-link i {
+    margin-left: 20px;
+    margin-right: 6px;
+}
+
+body[data-leftbar-compact-mode=condensed]:not(.authentication-bg) .wrapper .content-page {
+    margin-right: 70px;
+    margin-left: 0;
+}
+
+.end-bar-enabled .end-bar {
+    left: 0;
+    right: auto;
+}
+
+.leftside-menu {
+    right: 0;
+    background: #313a46;
+}
+
+.page-title-box .page-title-right {
+    float: left;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    float: right;
+    padding-right: inherit;
+    padding-left: 0.5rem;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: '';
+}
+
+i.dripicons-chevron-left {
+    color: #adb5bd;
+    padding: 0 0.2rem;
+}
+
+li.breadcrumb-item {
+    margin-left: 0;
+}
+
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: 0;
+}
+
+.dropdown-menu-animated.dropdown-menu-end[style] {
+    right: auto !important;
+    left: 0 !important;
+}
+
+.footer {
+    left: 0;
+    right: 260px;
+}
+
+@media (min-width: 768px) {
+    .text-md-end {
+        text-align: left !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .navbar-custom {
+        left: 0;
+        right: 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .content-page {
+        margin-right: 0;
+    }
+}
